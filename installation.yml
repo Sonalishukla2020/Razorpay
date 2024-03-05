@@ -1,0 +1,12 @@
+1-install node js
+2- npm install -D tailwindcss postcss autoprefixer vite
+3- npx tailwindcss init -p
+4 -Go in tailwind config.js add "*" in content
+5- package.js "script":{
+    start:"vite"
+}
+6- in main.css add @tailwind base;
+@tailwind components;
+@tailwind utilities;
+7- npm run start
+
